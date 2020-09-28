@@ -30,7 +30,7 @@
 |1.对器件特性不甚了解，电路参数确定困难||安俊杰|
 |2.具体规模阵列待与窦老师确认。||安俊杰|
 
-
+---
 ## 2020-09-18
 
 #### 工作回报
@@ -47,13 +47,30 @@
 
 | 问题                                                    | 状态 | 责任人     |
 | :--                                                     | --   |  -          |
-| 修改后AER电路的设计与原验证方案不符，需要进一步对齐<br> |      | weijinsong |
-| Leaky电路无法双向漏电<br>                               |      | weijinsong |
-|验证：关于系统整体的复位、上电、时钟等相关的基本功能还没有具体的想法验证，需要调研相关的验证方法；|| 卢建|
-|验证：关于系统的能耗、能效的验证方案没有，但是这一部分估计不会验证，首先这不是属于必需验证项目；其次，系统文档中没有关于这一部分的相关描述。||卢建|
+| 修改后AER电路的设计与原验证方案不符，需要进一步对齐<br> |    done  | weijinsong |
+| Leaky电路无法双向漏电<br>                               | done     | weijinsong |
+|验证：关于系统整体的复位、上电、时钟等相关的基本功能还没有具体的想法验证，需要调研相关的验证方法；| ignore | 卢建|
+|验证：关于系统的能耗、能效的验证方案没有，但是这一部分估计不会验证，首先这不是属于必需验证项目；其次，系统文档中没有关于这一部分的相关描述。| ignore |卢建|
+
+---
+
+## 2020-09-18
+
+#### 工作回报
+| name| 工作内容|下周工作|
+|:--|--|--|
+| [卢建](https://github.com/IMESNNGroup/meeting_record/tree/master/member/%E5%8D%A2%E5%BB%BA/MEMO.docx)| 1.文献阅读：这一周主要阅读了一篇关于BayesianNeuralNetwork(BNN)算法的综述文章（BayesianNeuralNetworksAnintroductionandsuvery），泛读了一篇用MTJ实现BNN的文章(All-spinBayesianneuralnetwork)。 <br>2.验证工作总结||
+|魏劲松| 1. 完成神经元电路的设计<br>2. 在RTL代码跑通mnist用例<br>2.优化spike_gen模块<br>3.进行ams仿真，验证数模接口|1.寻找并联系版图工程师<br>2.修改文章，把aer的文章修改成science china inforamation|
+|[卢吉凯](https://github.com/IMESNNGroup/meeting_record/tree/master/member/卢吉凯/T20200925)|见卢吉凯的文件夹||
+|[安俊杰](https://github.com/IMESNNGroup/meeting_record/tree/master/member/安俊杰/T20200925)|1.电流电压转换电路<br>2.修改综述|1.尝试I/V电路设计与仿真<br>2.其他周边电路的考虑|
+|[姜浩](https://github.com/IMESNNGroup/meeting_record/tree/master/member/%E5%A7%9C%E6%B5%A9/T20200925)|1、准备周五的大组会的PPT<br>2、阅读与神经元（同步和异步）相关的文献<br>3、看有关SNN和受限型玻尔兹曼机相关的资料|用异步方式实现一个数字的神经元|
+|刘津畅|1、进行Eyeriss论文的阅读，准备汇报ppt<br>2、深入学习MATLAB<br>3、阅读RISC-V的手册|1、学习完MATLAB的基础知识，开始看深度学习的库<br>2、继续阅读RISC-V手册<br>3、学习attention机制，并简单实践一下<br>4、继续文献的阅读，拓宽基础知识|
+|[唐双柱](https://github.com/IMESNNGroup/meeting_record/tree/master/member/唐双柱/T20200925)|1.1T1R测试(**[测试结果](https://github.com/IMESNNGroup/meeting_record/tree/master/member/唐双柱/T20200925/工作汇报9.25.pptx)**)。<br>2.文献阅读||
 
 
+|本周问题|状态|责任人|
+|:--|--|--|
+|暂时没有确定适合rram读写电路芯片的IV电路方案||安俊杰|
+|SNN芯片的Core的spike_gen模块资源消耗很大||魏劲松|
+|后端外包暂时没有联系人||魏劲松|
 
-
-  
-  
