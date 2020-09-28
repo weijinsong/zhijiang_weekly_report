@@ -65,7 +65,7 @@
 |[安俊杰](https://github.com/IMESNNGroup/meeting_record/tree/master/member/安俊杰/T20200925)|1.电流电压转换电路<br>2.修改综述|1.尝试I/V电路设计与仿真<br>2.其他周边电路的考虑|
 |[姜浩](https://github.com/IMESNNGroup/meeting_record/tree/master/member/%E5%A7%9C%E6%B5%A9/T20200925)|1、准备周五的大组会的PPT<br>2、阅读与神经元（同步和异步）相关的文献<br>3、看有关SNN和受限型玻尔兹曼机相关的资料|用异步方式实现一个数字的神经元|
 |刘津畅|1、进行Eyeriss论文的阅读，准备汇报ppt<br>2、深入学习MATLAB<br>3、阅读RISC-V的手册|1、学习完MATLAB的基础知识，开始看深度学习的库<br>2、继续阅读RISC-V手册<br>3、学习attention机制，并简单实践一下<br>4、继续文献的阅读，拓宽基础知识|
-|[唐双柱](https://github.com/IMESNNGroup/meeting_record/tree/master/member/唐双柱/T20200925)|1.1T1R测试(**[测试结果](https://github.com/IMESNNGroup/meeting_record/tree/master/member/唐双柱/T20200925/工作汇报9.25.pptx)**)。<br>2.文献阅读||
+|[唐双柱](https://github.com/IMESNNGroup/meeting_record/tree/master/member/唐双柱/T20200925)|1.1T1R测试(**[测试结果](https://github.com/IMESNNGroup/meeting_record/tree/master/member/唐双柱/T20200925/工作汇报9.25.pptx)**)。<br>2.文献阅读|1.继续1T1R测试。2.阅读RRAM阻值编程的文献|
 
 
 |本周问题|状态|责任人|
