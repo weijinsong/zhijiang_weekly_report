@@ -61,7 +61,7 @@
 |:--|--|--|
 | [卢建](https://github.com/IMESNNGroup/meeting_record/tree/master/member/%E5%8D%A2%E5%BB%BA/MEMO.docx)| 1.文献阅读：这一周主要阅读了一篇关于BayesianNeuralNetwork(BNN)算法的综述文章（BayesianNeuralNetworksAnintroductionandsuvery），泛读了一篇用MTJ实现BNN的文章(All-spinBayesianneuralnetwork)。 <br>2.验证工作总结||
 |魏劲松| 1. 完成神经元电路的设计<br>2. 在RTL代码跑通mnist用例<br>2.优化spike_gen模块<br>3.进行ams仿真，验证数模接口|1.寻找并联系版图工程师<br>2.修改文章，把aer的文章修改成science china inforamation|
-|[卢吉凯](https://github.com/IMESNNGroup/meeting_record/tree/master/member/卢吉凯/T20200925)|见卢吉凯的文件夹||
+|[卢吉凯](https://github.com/IMESNNGroup/meeting_record/tree/master/member/卢吉凯/T20200925)|1、RRAM译码电路搭建完成，CadenceAMS单个核心仿真。<br>2、学习DoreFa-Net低比特量化算法。<br>3、完成IEDM审稿。|1、读写电路在CadenceAMS环境的仿真，编写测试文件。<br>2、尝试S4NN算法的低比特量化。<br>3、和安俊杰细化RRAM读写电路的设计|
 |[安俊杰](https://github.com/IMESNNGroup/meeting_record/tree/master/member/安俊杰/T20200925)|1.电流电压转换电路<br>2.修改综述|1.尝试I/V电路设计与仿真<br>2.其他周边电路的考虑|
 |[姜浩](https://github.com/IMESNNGroup/meeting_record/tree/master/member/%E5%A7%9C%E6%B5%A9/T20200925)|1、准备周五的大组会的PPT<br>2、阅读与神经元（同步和异步）相关的文献<br>3、看有关SNN和受限型玻尔兹曼机相关的资料|用异步方式实现一个数字的神经元|
 |刘津畅|1、进行Eyeriss论文的阅读，准备汇报ppt<br>2、深入学习MATLAB<br>3、阅读RISC-V的手册|1、学习完MATLAB的基础知识，开始看深度学习的库<br>2、继续阅读RISC-V手册<br>3、学习attention机制，并简单实践一下<br>4、继续文献的阅读，拓宽基础知识|
