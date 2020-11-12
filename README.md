@@ -50,12 +50,12 @@ assign clk_out = enb & clk_in;
 >3. 确定Power Grid
 >> a. 根据电流密度上限确定纵向电源线的宽度和数量"smic18m.pdf|p22";
 
-![powerringstrap](http://github.com/IMESNNGroup/tree/master/member/weijinsong/T20201112/power_ring_strap.png)
+![powerringstrap](https://github.com/IMESNNGroup/meeting_record/blob/master/member/weijinsong/T20201112/power_ring_strap.png)
 
 >> b. 根据ir drop确定纵向和横向电源线的宽度和数量;
 
 >> Metal1的线宽是固定的在"smic18m.pdf|p12"中可以查到;
-![physicalspecifications](http://github.com/IMESNNGroup/tree/master/member/weijinsong/T20201112/physical_specifications.png)
+![physicalspecifications](https://github.com/IMESNNGroup/meeting_record/blob/master/member/weijinsong/T20201112/power_ring_strap.png)
 
 >> Metal1-M6的电流密度,Metal1-Metal6, Via1-Via5的电阻可以在smic180的designrule中查到;
 >> DesignRule在TF文件中的“TD-LO18-DR-2001v10.0.zip"中。(p128, p13-p14)
