@@ -40,4 +40,5 @@
 # History
  - [2020](history/2020)
    - [09](history/2020/2020_09.md)
+   - [10](history/2020/2020_10.md)
    - [11](history/2020/2020_11.md)
