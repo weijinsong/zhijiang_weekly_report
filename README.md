@@ -18,12 +18,12 @@
 > 数字后仿需要pt导出sdf文件反标到std_cell中。<br>
 但是在PT导出的sdf文件的反标格式是(min::max). 而verilog的系统函数$sdf_annotate()中默认的反标格式是(min::typ::max)。如果我们在反标的时候选择typ类型(默认是typ)，那么反标就会失败。<br>
 ###### PT sdf Type
-![pt sdf type](./member/weijinsong/T20201218/pt_sdf_type.png)<br>
+![pt sdf type](member/weijinsong/T20201218/pt_sdf_type.png)<br>
 ###### $sdf_annotate说明
-![sdf_annotate](./member/weijinsong/T20201218/sdf_annotate.png)<br>
+![sdf_annotate](member/weijinsong/T20201218/sdf_annotate.png)<br>
 ###### 在verilog中正确的写法
 由于在pt导出的sdf文件中没有typ类型的延时所以sdf_annotate只能选择"MINIUM"和“MAXIUM”类型。写法如下
-![verilog_sdf_annotate](./member/weijinsong/T20201218/verilog_sdf_annotate.png)<br>
+![verilog_sdf_annotate](member/weijinsong/T20201218/verilog_sdf_annotate.png)<br>
 
 ---
 ## 2020-12-11
