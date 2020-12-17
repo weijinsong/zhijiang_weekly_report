@@ -11,10 +11,21 @@
 它永远相信美好的事情即将发生。
 
 ---
-
+## 2020-12-18
+#### 魏劲松
+--- **本周工作**
+1. 解决数字后仿过反标的问题。
+> 数字后仿需要pt导出sdf文件反标到std_cell中。<br>
+但是在PT导出的sdf文件的反标格式是(min::max). 而verilog的系统函数$sdf_annotate()中默认的反标格式是(min::typ::max)。如果我们在反标的时候选择typ类型(默认是typ)，那么反标就会失败。<br>
+###### PT sdf Type
+![pt sdf type](./member/weijinsong/T20201218/pt_sdf_type.png)<br>
+###### $sdf_annotate说明
+![sdf_annotate](./member/weijinsong/T20201218/sdf_annotate.png)<br>
+###### 在verilog中正确的写法
+由于在pt导出的sdf文件中没有typ类型的延时所以sdf_annotate只能选择"MINIUM"和“MAXIUM”类型。写法如下
+![verilog_sdf_annotate](./member/weijinsong/T20201218/verilog_sdf_annotate.png)<br>
 
 ---
-
 ## 2020-12-11
 ### 工作汇报
 
@@ -29,7 +40,7 @@
     1. lfextclk和hfextclk这两个时钟有关联，但是在dc的script中家了fasepath
     2. 目前的电路跑不到50MHz，只能跑10MHz。但是综合的结果显示可以跑到50MHz。目前没有找到原因
 3. 整理DC流程
-- [ dc 流程整理[DC](./member/weijinsong/T20201212/dc.md)
+- [ dc 流程整理[DC]](./member/weijinsong/T20201212/dc.md)
 4. 整理一个SNN文献分享的仓库
 
 [chips for spiking Neural Network](https://gitee.com/weijinsong/chips-for-spiking-neural-network#neuron-circuits)
